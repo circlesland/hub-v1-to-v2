@@ -1,0 +1,22 @@
+{
+  "name": "safe-contract-deployment-replay",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "configure": "ts-node src/configure.ts"
+  },
+  "dependencies": {
+    "web3": "^1.6.1",
+    "bn.js": "^5.2.0",
+    "bip39": "^3.0.4",
+    "ethereumjs-common": "^1.5.2",
+    "ethereumjs-tx": "^2.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.12",
+    "@types/web3": "^1.2.2",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2",
+    "ganache": "^7.3.1"
+  }
+}

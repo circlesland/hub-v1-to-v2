@@ -1,0 +1,4 @@
+/docker-compose/local/ganache/bootstrapper/dist/
+/docker-compose/local/ganache/db
+.idea
+.history
